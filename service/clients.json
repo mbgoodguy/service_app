@@ -1,0 +1,1 @@
+[{"model": "clients.client", "pk": 2, "fields": {"user": 1, "company_name": "User1 Company", "full_address": "Company of User1 full address"}}]
