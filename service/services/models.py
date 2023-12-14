@@ -14,7 +14,7 @@ class Plan(models.Model):
     PLAN_TYPES = (
         ('full', 'Full'),
         ('student', 'Student'),
-        ('dicsount', 'Discount')
+        ('discount', 'Discount')
     )
 
     plan_type = models.CharField(choices=PLAN_TYPES, max_length=10)

@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
             name='Plan',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('plan_type', models.CharField(choices=[('full', 'Full'), ('student', 'Student'), ('dicsount', 'Discount')], max_length=10)),
+                ('plan_type', models.CharField(choices=[('full', 'Full'), ('student', 'Student'), ('discount', 'Discount')], max_length=10)),
                 ('discount_percent', models.PositiveIntegerField(default=0, validators=[django.core.validators.MaxValueValidator(100)])),
             ],
         ),
